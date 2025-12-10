@@ -1,0 +1,8 @@
+# Example YOLO data.yaml
+path: data/datasets/cows
+train: images/train
+val: images/val
+
+names:
+  0: cow
+  1: ear_tag

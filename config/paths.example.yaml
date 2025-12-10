@@ -1,0 +1,13 @@
+project_root: .
+
+data:
+  raw_gopro: data/raw/gopro
+  raw_fixed_cams: data/raw/fixed_cams
+  frames: data/frames
+  labels_cvat: data/labels/cvat_exports
+  labels_yolo: data/labels/yolo
+  datasets: data/datasets
+
+models:
+  yolo_weights: models/yolo/weights
+  yolo_runs: models/yolo/runs

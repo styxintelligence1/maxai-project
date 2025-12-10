@@ -1,0 +1,7 @@
+# Example Ultralytics YOLO config snippet
+train:
+  data: config/yolo_dataset.yaml
+  imgsz: 1280
+  epochs: 100
+  batch: 8
+  device: 0
